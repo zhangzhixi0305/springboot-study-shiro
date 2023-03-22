@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bd6ecdc-3403-4229-b739-9607769f74c1" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\StudySoftware\Maven\apache-maven-3.6.3\maven3" />
+        <option name="mavenHome" value="D:/StudySoftware/Maven/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\StudySoftware\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mub1VMvdqlzcUHLLBQryKCFVE5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-04-thymeleaf/src/main/java/com/zhixi" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhixi.sevice.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\StudyProject\编程不良人\study-shiro\shiro-04-thymeleaf\src\main\java\com\zhixi" />
+      <recent name="F:\StudyProject\编程不良人\study-shiro\shiro-04-thymeleaf\src\main\resources" />
+      <recent name="F:\StudyProject\编程不良人\study-shiro\shiro-03-springboot-shiro-redis\src\main\java\com\zhixi" />
+      <recent name="F:\StudyProject\编程不良人\study-shiro\shiro-03-springboot-shiro-redis\src\main" />
+      <recent name="F:\StudyProject\编程不良人\study-shiro\shiro-03-springboot-shiro-redis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Shiro04ThymeleafApplication">
+    <configuration name="ShiroMd5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.md5.ShiroMd5Utils" />
+      <module name="shiro-01-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAuthenticator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.TestAuthenticator" />
+      <module name="shiro-01-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumerRealm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.TestConsumerRealm" />
+      <module name="shiro-01-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCustomerMd5RealmAuthenicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.md5.TestCustomerMd5RealmAuthenicator" />
+      <module name="shiro-01-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.md5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.util.VerifyCodeUtils" />
+      <module name="shiro-03-springboot-shiro-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro02SpringbootJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-02-springboot-jsp" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.Shiro02SpringbootJspApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro03SpringbootShiroRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-03-springboot-shiro-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.Shiro03SpringbootShiroRedisApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro04ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-04-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhixi.Shiro04ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Shiro02SpringbootJspApplication" />
+      <item itemvalue="Spring Boot.Shiro03SpringbootShiroRedisApplication" />
+      <item itemvalue="Spring Boot.Shiro04ThymeleafApplication" />
+      <item itemvalue="应用程序.ShiroMd5Utils" />
+      <item itemvalue="应用程序.TestAuthenticator" />
+      <item itemvalue="应用程序.TestConsumerRealm" />
+      <item itemvalue="应用程序.TestCustomerMd5RealmAuthenicator" />
+      <item itemvalue="应用程序.VerifyCodeUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.VerifyCodeUtils" />
+        <item itemvalue="应用程序.TestAuthenticator" />
+        <item itemvalue="应用程序.TestCustomerMd5RealmAuthenicator" />
+        <item itemvalue="应用程序.ShiroMd5Utils" />
+        <item itemvalue="应用程序.TestConsumerRealm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0bd6ecdc-3403-4229-b739-9607769f74c1" name="变更" comment="" />
+      <created>1678620202237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678620202237</updated>
+      <workItem from="1678620206417" duration="9624000" />
+      <workItem from="1678634508415" duration="1338000" />
+      <workItem from="1678700089027" duration="3146000" />
+      <workItem from="1678718266430" duration="913000" />
+      <workItem from="1678869067583" duration="5968000" />
+      <workItem from="1678891831341" duration="2222000" />
+      <workItem from="1678894088514" duration="228000" />
+      <workItem from="1678971111819" duration="4734000" />
+      <workItem from="1679279218941" duration="5818000" />
+      <workItem from="1679287546958" duration="2056000" />
+      <workItem from="1679294879005" duration="14515000" />
+      <workItem from="1679321380461" duration="6433000" />
+      <workItem from="1679387682398" duration="1901000" />
+      <workItem from="1679390506806" duration="2684000" />
+      <workItem from="1679447994015" duration="262000" />
+      <workItem from="1679448300682" duration="149000" />
+      <workItem from="1679448501610" duration="7206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-03-springboot-shiro-redis/src/main/java/com/zhixi/config/CustomerRealm.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhixi.mapper.UserMapper">
+
+    <insert id="saveUser" parameterType="com.zhixi.pojo.User" useGeneratedKeys="true">
+        insert into shiro.t_user(username, password, salt)
+        values (#{username}, #{password}, #{salt});
+    </insert>
+
+    <select id="selectUserByName" resultMap="userResultMap">
+        select *
+        from shiro.t_user
+        where username = #{userName};
+    </select>
+
+    <resultMap id="userRoleMap" type="com.zhixi.pojo.User">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <collection property="roles" javaType="list" ofType="com.zhixi.pojo.Role">
+            <result column="roleid" property="id"/>
+            <result column="rname" property="name"/>
+        </collection>
+    </resultMap>
+
+    <select id="findRolesByUsernameRoles" resultMap="userRoleMap">
+        SELECT t.id, t.username, ur.roleid, r.`name` rname
+        FROM shiro.t_user t
+                 LEFT JOIN shiro.t_user_role ur ON t.id = ur.userid
+                 LEFT JOIN shiro.t_role r ON r.id = ur.roleid
+        WHERE t.username = #{username}
+    </select>
+
+
+    <resultMap id="roleToPerms" type="com.zhixi.pojo.Perms">
+        <result column="pers_name" property="name"/>
+        <result column="pers_url" property="url"/>
+    </resultMap>
+    <select id="findPermsByRoleId" resultMap="roleToPerms">
+        SELECT role.id,
+               role.name   as role_name,
+               pers.`name` as pers_name,
+               pers.url    as pers_url
+        FROM shiro.t_role role
+                 LEFT JOIN shiro.t_role_perms rp ON role.id = rp.roleid
+                 LEFT JOIN shiro.t_pers pers ON rp.permsid = pers.id
+        WHERE role.id = #{id}
+    </select>
+
+    <resultMap id="userResultMap" type="com.zhixi.pojo.User">
+        <id column="id" property="id" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="salt" property="salt" jdbcType="VARCHAR"/>
+    </resultMap>
+</mapper>

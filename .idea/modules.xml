@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shiro-01-start/shiro-01-start.iml" filepath="$PROJECT_DIR$/shiro-01-start/shiro-01-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-02-springboot-jsp/shiro-02-springboot-jsp.iml" filepath="$PROJECT_DIR$/shiro-02-springboot-jsp/shiro-02-springboot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-03-springboot-shiro-redis/shiro-03-springboot-shiro-redis.iml" filepath="$PROJECT_DIR$/shiro-03-springboot-shiro-redis/shiro-03-springboot-shiro-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-04-thymeleaf/shiro-04-thymeleaf.iml" filepath="$PROJECT_DIR$/shiro-04-thymeleaf/shiro-04-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

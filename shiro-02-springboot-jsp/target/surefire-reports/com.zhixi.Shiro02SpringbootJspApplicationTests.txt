@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.zhixi.Shiro02SpringbootJspApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.772 s - in com.zhixi.Shiro02SpringbootJspApplicationTests

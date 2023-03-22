@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+<body>
+<h1>欢迎主页</h1>
+<!--获取身份信息-因为我在认证的时候传入的是一个user对象-->
+<!--获取身份信息：shiro原生-->
+<shiro:principal property="username"/>
+<hr>
+<!--获取身份信息：Thymeleaf中获取用户方式-->
+<span shiro:principal=""></span>
+
+
+<br>
+<!--认证处理-->
+<span shiro:authenticated="">
+        认证通过展示内容
+</span>
+<!--没有认证处理-->
+<span shiro:notAuthenticated="">
+        没有认证通过展示内容
+</span>
+<!--授权角色-->
+<span shiro:hasRole="admin">
+        this is admin
+    </span>
+<!--资源授权-->
+<span shiro:hasPermission="category:*:01">
+        具有用户模块权限
+    </span>
+<div>
+    <a th:href="@{/user/logout}">退出登录</a>
+</div>
+</body>
+</html>

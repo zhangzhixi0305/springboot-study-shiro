@@ -1,0 +1,4 @@
+com\zhixi\config\CustomerRealm.class
+com\zhixi\controller\ShiroController.class
+com\zhixi\Shiro02SpringbootJspApplication.class
+com\zhixi\config\ShiroConfig.class
